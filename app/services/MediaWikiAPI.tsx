@@ -89,6 +89,7 @@ const useAPI = async (props:object):Promise<NestedRecord|Exception> => {
 
     return await axios.get(url, {
         headers: {
+            'User-Agent': 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0',
             'Accept': 'application/json'
         }
     })
