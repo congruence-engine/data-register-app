@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-    basePath: "/data-register-app",
-    output: "export",
+    basePath: isProd ? "/data-register-app" : "",
+    output: isProd ? "export" : undefined,
     reactStrictMode: true,
     images: {
         unoptimized: true,
