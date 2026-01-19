@@ -18,7 +18,7 @@ Beyond usability, the application served as an experimental environment for expl
 
 A further dimension of the research investigated the affordances of language models in data discovery. We compared traditional full-text search with vector-based semantic search, exploring how these approaches interpret and retrieve information from a small, well-defined collection. The [Congruene Engine Data Register](https://congruence-engine.wikibase.cloud/) provided a controlled testbed for this comparison, offering insight into how linguistic similarity, conceptual proximity, and structured metadata shape information retrieval.
 
-Working with a small, well-defined collection was a deliberate choice. It made search behaviour easier to observe and interpret, and anomalies easier to spot. In this context, the application functioned as both a practical tool and a research instrument: providing a way to experiment with and learn about the particular data structure, as well as a way to see cosine similarity at work with the often invisible mechanics of semantic search exposed in an accessible, observable way.
+Working with a small, well-defined collection made search behaviour easier to observe and interpret, and anomalies easier to spot. In this context, the application functioned as both a practical tool and a research instrument: providing a way to experiment with and learn about the particular data structure, as well as a way to see cosine similarity at work with the often invisible mechanics of semantic search exposed in an accessible, observable way.
 
 <br />
 
